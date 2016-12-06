@@ -1,6 +1,6 @@
 <?php
 
-namespace conorhaining/php-openraildata;
+namespace conorhaining\phpopenraildata;
 
 
 /**

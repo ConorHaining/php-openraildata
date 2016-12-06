@@ -1,6 +1,6 @@
 <?php
 
-use conorhaining/php-openraildata/NetworkRail;
+use conorhaining\phpopenraildata\NetworkRail;
 
 class NetworkRailTest extends PHPUnit_Framework_TestCase{
 
