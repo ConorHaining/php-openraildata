@@ -1,0 +1,22 @@
+{
+    "name": "conorhaining/php-openraildata",
+    "description": "A package which uses the Network Rail & National Rail feeds to provide timetable, service, performance and tracking data about the ork.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Conor Haining",
+            "email": "conor.haining@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "php-openraildata": "src/"
+        }
+    }
+}
