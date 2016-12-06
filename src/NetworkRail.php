@@ -9,6 +9,7 @@ namespace conorhaining/php-openraildata;
 * @author Conor Haining <conor.haining@gmail.com>
 * @package conorhaining/php-openraildata
 * @since 0.0.1-dev
+* @see http://nrodwiki.rockshore.net/index.php/About_the_feeds
 */
 class NetworkRail{
 	
@@ -19,17 +20,17 @@ class NetworkRail{
 	/**
 	* @var string Network Rail data feed username
 	*/
-	protected $username;
+	private $username;
 
 	/**
 	* @var string Network Rail data feed password
 	*/
-	protected $password;
+	private $password;
 	
 	/**
 	* @var string Network Rail data feed security token
 	*/
-	protected $securityToken;
+	private $securityToken;
 
 	/**
 	* Constructor for NetworkRail 
@@ -43,4 +44,32 @@ class NetworkRail{
 		$this->password = $password;
 		$this->securityToken = $securityToken;
 	}
+
+	/**
+	* Accessor method for username
+	*
+	* @return string|null Network Rail data feed username
+	*/
+	public function getUsername(){
+		return $this->username;
+	}
+	
+	/**
+	* Accessor method for password
+	*
+	* @return string|null Network Rail data feed username
+	*/
+	public function getPassword(){
+		return $this->password;
+	}
+
+	/**
+	* Accessor method for username
+	*
+	* @return string|null Network Rail data feed username
+	*/
+	public function getSecurityToken(){
+		return $this->getSecurityToken;
+	}
+
 }
