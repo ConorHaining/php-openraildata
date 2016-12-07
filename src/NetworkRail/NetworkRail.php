@@ -33,6 +33,11 @@ class NetworkRail{
 	private $securityToken;
 
 	/**
+	* @var conorhaining\phpopenraildata\NetworkRail\Stomp An instance of the Stomp messaging client
+	*/
+	private $stomp
+;
+	/**
 	* Constructor for NetworkRail 
 	* 
 	* @param string $username Network Rail data feed username
