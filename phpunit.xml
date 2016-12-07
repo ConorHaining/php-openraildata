@@ -2,7 +2,7 @@
 <phpunit bootstrap="./vendor/autoload.php"
          colors="true">
     <testsuites>
-        <testsuite name="Network Rail Test Suite">
+        <testsuite name="Network Rail Test Suite#">
             <directory suffix=".php">./tests/</directory>
         </testsuite>
     </testsuites>
