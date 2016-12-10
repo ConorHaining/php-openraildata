@@ -1,5 +1,5 @@
 <?php 
-namespace conorhaining\phpopenraildata;
+namespace OpenRail;
 
 
 /**
