@@ -1,6 +1,6 @@
 <?php
 
-namespace conorhaining\phpopenraildata\NetworkRail\Codes;
+namespace OpenRail\NetworkRail\Codes;
 
 /**
 * A class which allows provides the business codes for all the TOCs. The business codes is used within the TRUST system and is used in the individual train movement feeds.

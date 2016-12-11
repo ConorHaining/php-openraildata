@@ -1,6 +1,6 @@
 <?php
 
-namespace conorhaining\phpopenraildata\NetworkRail\Codes;
+namespace OpenRail\NetworkRail\Codes;
 
 /**
 * A class which allows provides the ATOC codes for all the TOCs. The ATOC codes is used in the SCHEDULE feed.

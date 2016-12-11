@@ -1,6 +1,6 @@
 <?php
 
-namespace conorhaining\phpopenraildata\NetworkRail\Codes;
+namespace OpenRail\NetworkRail\Codes;
 
 /**
 * A class which allows provides the Sector Codes used to represent the TOC in the TRUST message.
