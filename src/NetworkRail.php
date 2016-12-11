@@ -1,6 +1,7 @@
 <?php 
 namespace OpenRail;
 
+use Stomp\Client as Stomp;
 
 /**
 * Superclass to connect to the Network Rail data feeds
@@ -32,7 +33,7 @@ class NetworkRail{
 	private $securityToken;
 
 	/**
-	* @var conorhaining\phpopenraildata\NetworkRail\Stomp An instance of the Stomp messaging client
+	* @var Stomp/Client An instance of the Stomp messaging client
 	*/
 	private $stomp
 ;
@@ -44,9 +45,13 @@ class NetworkRail{
 	* @param string $securityToken Network Rail data feed security token
 	*/
 	function __construct($username, $password, $securityToken){
+		// Assign Variables
 		$this->username = $username;
 		$this->password = $password;
 		$this->securityToken = $securityToken;
+
+		// Initialise Stomp
+		$this->stomp = new Stomp(self::SCHEME . '://' . self::HOST . ':' . self::PORT);
 	}
 
 	/**
